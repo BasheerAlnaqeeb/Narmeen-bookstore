@@ -1,12 +1,17 @@
 body {
     font-family: 'Cairo', sans-serif;
+   
 }
-.navbar{
+
+.navbar {
     background-color: #f1f4f5;
 }
 
-.navbar,.nav-link,.nav-item,.navbar-brand{
-    color:#0091A1;
+.navbar,
+.nav-link,
+.nav-item,
+.navbar-brand {
+    color: #0091A1;
 }
 
 .header-background {
@@ -66,7 +71,6 @@ body {
     }
 }
 
-
 .header-book,
 .body-book {
     padding-top: 120px;
@@ -107,7 +111,6 @@ body {
     margin: auto;
 }
 
-
 .glowing-image {
     width: 220px;
     height: 220px;
@@ -128,62 +131,58 @@ body {
     }
 }
 
-.social-icons{
-    color: #0091A1;
+.social-icons a {
+    display: inline-block;
+    margin: 0 20px;
 }
 
-footer{
-background-color: #0091A1;
+footer {
+    background-color: #0091A1;
 }
 
- footer {
-   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
-   /* box-shadow: 0px 0px 6px rgb(0, 0, 10); */
+footer {
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+}
 
- }
-     
-
-.Social-nav{
+.Social-nav {
     float: left;
 }
 
-.footer-nav,.Social-nav {
+.footer-nav,
+.Social-nav {
     display: flex;
     list-style: none;
 }
 
-.footer-nav li,.Social-nav li {
+.footer-nav li,
+.Social-nav li {
     margin: 0 10px;
 }
 
 .footer-nav li a:link,
-.footer-nav li a:visited ,
+.footer-nav li a:visited,
 .Social-nav li a:link,
-.Social-nav li a:visited 
-
-{
+.Social-nav li a:visited {
     color: white;
     text-decoration: none;
 
-  }
+}
 
 .Social-nav li a:link,
 .Social-nav li a:visited {
     font-size: 22px;
 
 }
-  
+
 
 .footer-nav li a:hover,
-.footer-nav li a:active ,
+.footer-nav li a:active,
 .Social-nav li a:hover,
-.Social-nav li a:active 
+.Social-nav li a:active {
+    color: rgb(2, 24, 36);
 
-{
-color: rgb(2, 24, 36);
-   
-  }
-  
+}
+
 
 .footer-nav li {
     display: inline-block;
@@ -209,3 +208,4 @@ color: rgb(2, 24, 36);
 .footer-nav li a:hover::after {
     width: 100%;
 }
+
